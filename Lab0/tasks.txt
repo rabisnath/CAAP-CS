@@ -1,3 +1,19 @@
 Task 6
 ------
 git commit --amend
+
+Task 7
+------
+git log revealed the change log,
+I held down the page down key until the whole log was being displayed,
+I pressed ctrl+f and typed --no-mouse to find the commit,
+
+commit c7e86ad4f1061b0cad9f64a6c9ad26f386bc1168
+Author: Junegunn Choi <junegunn.c@gmail.com>
+Date:   Thu Jan 30 15:41:44 2014 +0900
+
+    Add --no-mouse option to replace FZF_MOUSE_ENABLED
+
+Task 8
+------
+git diff shows the changes
