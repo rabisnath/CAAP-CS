@@ -17,3 +17,7 @@ Date:   Thu Jan 30 15:41:44 2014 +0900
 Task 8
 ------
 git diff shows the changes
+
+Task 9
+------
+git rm removes a file
