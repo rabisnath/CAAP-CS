@@ -1,0 +1,17 @@
+Task 1: 10 points
+Task 2: 5 points
+Task 3: 5 points
+Task 4:	5 points
+Task 5:	5 points
+Task 6: 3 points
+	--> "Make sure to explain how you found out the answer to these questions! (including citing any relevant sources)."
+Task 7: 5 points
+Task 8: 3 points
+	--> "Make sure to explain how you found out the answer to thisquestions! (including citing any relevant sources)."
+Task 9: 3 points
+	--> "Make sure to explain how you found out the answer to these questions! (including citing any relevant sources)."
+Task 10: 6 points
+	--> "Make sure to explain how you found out the answer to these questions! (including citing any relevant sources)."
+	--> the command is "git revert" which I can see you used, but the task was to explain how you did it and where you found the answer in the tasks file. Make sure to ask if there is any confusion with the instructions next time.
+Task 11: 2 points
+Total: 52/60
