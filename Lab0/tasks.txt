@@ -21,3 +21,6 @@ git diff shows the changes
 Task 9
 ------
 git rm removes a file
+Task 10
+------
+git revert then a commit# will undo the error 
