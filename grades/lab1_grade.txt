@@ -1,0 +1,40 @@
+Lab 1
+CAAP CMSC 101, Summer 2018
+
+Required Elements/Attributes
+  Correct use           3/3
+  Used all              3/3
+  Balanced amount       3/3 
+
+Semantic markup
+  Well structured hierarchies    20/20
+
+Correct use of directories/files
+  Links                 5/5
+  In docs directory     2/5
+  Git sites works       5/10
+
+Validation
+  Both pages and stylesheets  10/20
+
+Design/CSS
+  Dynamic screen size    5/5
+  Efficient use of CSS on multiple pages     10/10
+  Professional design in both pages  3/5
+  
+
+Code style
+  format         3/3 (* code looks good *)
+  clarity        3/3 (* logic is expressed clearly *)
+  decomposition  3/3 (* problems are factored into sensible subproblems *)
+  efficiency     2/2 (* blatant inefficiencies are avoided *)
+
+_total-score_  80/100
+
+graded by Jose Reyes
+
+Comments:
+- Very neat code
+- Consider adding more comments and validating all your pages and stylesheets.
+- The content should've been more professional.
+- The site is not on git pages yet
