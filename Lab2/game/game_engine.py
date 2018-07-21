@@ -3,8 +3,8 @@
 class Engine(object):
 	
 	# global variables to keep track of game status and live count	
-	escaped = raise ValueError ('todo')
-	lives = raise ValueError ('todo')
+	escaped = False
+	lives = 3
 
 	# initializes the map in the game
 	def __init__(self, scene_map):
@@ -23,15 +23,19 @@ class Engine(object):
 			if (next_scene_name == ':q'):
 				exit(1)
 			elif (next_scene_name == 'death'):
-				raise ValueError ('todo')
+				checkpoint = current_scene
+				n_moves += 1
+				current_scene = self.scene_map.next_scene(next_scene_name)
 			elif (next_scene_name == 'died'):
-				raise ValueError ('todo')
+				self.lives -= 1
+				current_scene = checkpoint
 			else:
-				raise ValueError ('todo')
-		if (raise ValueError ('todo')):
+				n_moves += 1
+				current_scene = self.scene_map.next_scene(next_scene_name)
+		if (next_scene_name == 'finished'):
 			self.escaped = True
-		return raise ValueError ('todo')
+		return n_moves
 
 	# updates the variable to determine whether player won or failed.
 	def won(self):
-		raise ValueError ('todo')
+		return self.escaped

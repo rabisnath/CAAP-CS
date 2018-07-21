@@ -8,9 +8,9 @@ from scores import Score
 from game_engine import Engine
 
 # global variables to keep track of score, player, and leaderboard
-moves = raise ValueError ('todo')
-name = raise ValueError ('todo')
-leaderboard = raise ValueError ('todo')
+moves = 0 #number of moves the player has made so far
+name = ""
+leaderboard = Leaderboard()
 
 # what happens when the game is over
 # takes in a boolean parameter
@@ -19,9 +19,12 @@ def game_over(won):
 	global name
 	global moves
 	score = Score(name, moves)
-	raise ValueError ('todo')
-	print ("\nGame Over.")
-	raise ValueError ('todo')
+	leaderboard.update(score)
+	if (won):
+		print("\nYou Won!")
+	else:
+		print ("\nGame Over. Better luck next time.")
+	leaderboard.print_board()
 
 # initializes/updates global variables and introduces the game.
 # starts the Map and the engine.
@@ -36,7 +39,7 @@ def play_game():
 			exit(1)
 		a_map = Map('central_corridor') # raise ValueError ('todo')
 		a_game = Engine(a_map)
-		moves = raise ValueError ('todo')
+		moves = a_game.play()
 		game_over(a_game.won())
 
 play_game()
