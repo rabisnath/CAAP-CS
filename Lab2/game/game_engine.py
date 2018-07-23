@@ -4,7 +4,9 @@ class Engine(object):
 	
 	# global variables to keep track of game status and live count	
 	escaped = False
-	lives = 3
+	print("What difficulty would you like to play on? \nEnter 1 for easy (5 lives), 2 for medium (3 lives), and 3 for hard (1 life).")
+	difficulty = int(input("> "))
+	lives = 5 - (2* (difficulty-1))
 
 	# initializes the map in the game
 	def __init__(self, scene_map):
@@ -19,6 +21,7 @@ class Engine(object):
 		n_moves = 0
 		while (next_scene_name != 'finished' and self.lives > 0):
 			print ("\n*******************************************************************") #raise ValueError ('todo')
+			print (next_scene_name)
 			next_scene_name = current_scene.enter()
 			if (next_scene_name == ':q'):
 				exit(1)
