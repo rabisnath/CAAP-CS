@@ -1,0 +1,10 @@
+
+Ran simulation 10 times, Average number of moves required was: 10.5
+Ran simulation 10 times, Average number of moves required was: 11.6
+Ran simulation 100 times, Average number of moves required was: 11.95
+Ran simulation 100 times, Average number of moves required was: 11.84
+Ran simulation 1000 times, Average number of moves required was: 12.147
+Ran simulation 1000 times, Average number of moves required was: 11.939
+Ran simulation 10000 times, Average number of moves required was: 12.0613
+Ran simulation 10000 times, Average number of moves required was: 12.0312
+Ran simulation 10 times, Average number of moves required was: 12.1
