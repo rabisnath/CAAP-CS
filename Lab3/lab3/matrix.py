@@ -35,8 +35,6 @@ def matrixmult(a,b):
 	colsOfB = len(b[0])
 
 	if colsOfA != rowsOfB: #making sure dimensions are valid
-		print("Matrix A has dimensions: " + str(rowsOfA) + " by " + str(colsOfA))
-		print("Matrix B has dimensions: " + str(rowsOfB) + " by " + str(colsOfB))
 		raise ValueError("Invalid Matrix Dimensions")
 
 	c = make_matrix(rowsOfA, colsOfB, False) #generates an empty matrix for c

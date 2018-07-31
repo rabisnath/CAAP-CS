@@ -117,25 +117,6 @@ def get_transition_matrix(board):
 
 		transitionMatrix.append(probabilities)
 
-#	current_row = 0
-#	for row in board: #looping through the rows of the board
-#		for i in range(len(row)+1): #looping through the cells in a row
-#			index = i + current_row*width #i is the position of a cell in a row, need the second term to add prev rows
-#			if not (index in possibleStates): #makes it so the vertical axis only contains possible states
-#				continue
-#			destinations = [] #an array of the states cell i links to
-#			probabilities = [] #the row of the transition matrix corresponding to this cell
-#			for landingTile in range(i + 1, i + 7): #looping through the cells one die roll away from i
-#				destinations.append(resolve(board, min(landingTile + width*current_row, size))) #populates destinations w end of turn positions
-#			destinations = convert_to_freq(destinations) #converts from [1, 2, 7, 7] to {1: 1, 2: 1, 7: 2}
-#			for dest in possibleStates: #populating the probabilities array
-#				if dest in destinations:
-#					probabilities.append(destinations[dest] / 6)
-#				else:
-#					probabilities.append(0)
-#			transitionMatrix.append(probabilities)
-#		current_row += 1
-
 	return transitionMatrix
 
 #generates initial state matrix for a given board
@@ -270,9 +251,9 @@ def test():
 	#simulate_game(trials, 6, 6)
 
 	#EXTRA CREDIT: Can test on any sized game board by giving makeGame() different parameters
-	testBoard = makeGame(8, 8)
+	testBoard = makeGame(4, 4)
 	testTransMatrix = get_transition_matrix(testBoard)
-	#print_transition_matrix(testTransMatrix)
+	print_transition_matrix(testTransMatrix)
 	testStateMatrix = get_init_state_matrix(testBoard)
 	#print(get_possible_states(testBoard))
 	#m.print_matrix(testStateMatrix)
@@ -281,7 +262,7 @@ def test():
 
 	#m.markov_simulation_bymove(testStateMatrix, testTransMatrix, 1000)
 
-	m.testing_bymove(testStateMatrix, testTransMatrix, 20, 1)
+	#m.testing_bymove(testStateMatrix, testTransMatrix, 20, 1)
 
 
 
