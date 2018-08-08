@@ -1,4 +1,4 @@
-Assignemts			Score
+Assignments			Score
 ------------------------------
 Labs:
 lab0				52/60
