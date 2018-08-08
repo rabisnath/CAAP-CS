@@ -1,0 +1,14 @@
+Assignment 1 Grade:
+
+1. Hello world - 4/2 pts
+	--> Challenge works: +2pts
+2. Converter:  6/6 pts
+3. Unit Conversion:  6/6 pts
+4. Slope: 10/10 pts
+5. Fibonacci Sequence: 6/6 pts
+6. Part 2 - Change: 20/20 pts
+7. Part 4 - 10/10 pts 
+
+52/60 Points total
+
+--> Have more visually appealing user input messages.
