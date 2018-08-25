@@ -1,0 +1,40 @@
+Lab 3
+CAAP CMSC 101, Summer 2018
+
+Required Elements/Attributes/Functions
+  Used all modules           3/3
+  Implemented all required functions    3/3
+  Added matrix to code       3/3 
+
+Semantics/Syntax
+  Well structured modules     20/20
+
+Correct use of directories/files
+  20/20
+
+Tests
+  All pages/functions work correctly  15/15
+  Has multiple test functions where regular and corner cases are tested 3/5
+
+Design/Classes/Modules
+  Dynamic gameplay/user input    1/5
+  Efficient use of classes/global variables     10/10
+  Supports user and pc mode  2/5
+  
+
+Code style
+  format         3/3 (* code looks good *)
+  clarity        3/3 (* logic is expressed clearly *)
+  decomposition  2/3 (* problems are factored into sensible subproblems *)
+  efficiency     0/2 (* blatant inefficiencies are avoided *)
+
+Matrix bonus: +5
+
+_total-score_  93/100
+
+graded by Jose Reyes
+
+Comments:
+
+- all functions should be tested, and these tests should be in the code
+- No user input, so this game is not 'playable'

@@ -3,9 +3,9 @@ Assignments			Score
 Labs:
 lab0				52/60
 lab1				80/100
-lab2				TBD
-lab3				TBD
-lab4				TBD
+lab2				95/100
+lab3				93/100
+lab4				94/100
 					
 hw:					
 Assign_00			39/40
@@ -19,9 +19,10 @@ Quiz_4				65/50
 Quiz_5				97/85
 					
 Projects:			
-Project_1			TBD
+Project_1			93/100
+Final Presentation	96/100
 ------------------------------
 
-Current_Total		514/515
+Current_Total		985/1015
 
-Current_Grade		99.81%
+Current_Grade		97.04%

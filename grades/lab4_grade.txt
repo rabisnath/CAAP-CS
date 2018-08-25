@@ -1,0 +1,40 @@
+Lab 3
+CAAP CMSC 101, Summer 2018
+
+Required Elements/Attributes/Functions
+  Used all functions           3/3
+  Implemented all required functions    3/3
+  Added needed helper functions       3/3 
+
+Semantics/Syntax
+  Well structured code/functions     20/20
+
+Images
+  Is able to produce all required figures 18/20
+
+Tests
+  All pages/functions work correctly  15/15
+  Has multiple test functions where regular and corner cases are tested 2/5
+
+Design/Classes/Modules
+  Dynamic user input    1/5
+  Efficient use of classes/global variables     10/10
+  Supports multiple images  5/5
+  
+
+Code style
+  format         3/3 (* code looks good *)
+  clarity        3/3 (* logic is expressed clearly *)
+  decomposition  3/3 (* problems are factored into sensible subproblems *)
+  efficiency     1/2 (* blatant inefficiencies are avoided *)
+
+Bonus: 4
+
+_total-score_  94/100
+
+graded by Jose Reyes
+
+Comments:
+
+- all functions should be tested, and these tests should be in the code
+- No user input support
